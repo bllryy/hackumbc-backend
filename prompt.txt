@@ -1,3 +1,0 @@
-Analyze this code for errors. Respond in JSON. If there are no errors return empty JSON. Include a reason for the error. There are three levels of security, LOW, MEDIUM, or HIGH. Be succient in your message. Make a recommendation to fix the issue unless the fix is trivial. Look for errors such as buffer overflows and stack smashing. Trivial errors are none of your concern. Functions such as malloc and gets are not safe.
-Follow the example:
-{"errors": [{"line": LINE},{"column": COL},{"message": MESSAGE},{"severity": SEVERITY}]} 
