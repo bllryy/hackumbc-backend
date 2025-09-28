@@ -32,7 +32,7 @@ func checkFile(c *gin.Context) {
 	}
 	ctx := context.Background()
 	client, err := genai.NewClient(ctx, &genai.ClientConfig{
-		APIKey:  "AIzaSyB7MioCq_eDxEfmUSraYHxRBJBEXaqZ3pc",
+		APIKey:  "",
 		Backend: genai.BackendGeminiAPI,
 	})
 	if err != nil {
